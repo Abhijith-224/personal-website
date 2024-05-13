@@ -29,6 +29,7 @@ li{
 }
 .navbar-brand{
     margin-left:25px;
+    
 }
 
 .nav-custom{
@@ -50,6 +51,7 @@ li{
 .landing{
     height: 100vh;
     z-index: -100;
+    
    
 }
 
@@ -59,6 +61,7 @@ li{
     background-color: rgb(246, 7, 62);
     border-bottom-right-radius: 75px;
     
+    
 }
 
 .left-section-content{
@@ -66,12 +69,39 @@ li{
     margin-top: 20%;
     margin-right: 10%;
     color: white;
+   
 }
 
-.heading{
+.heading-1{
+    font-size: 13px;
+    
+}
+
+.heading-2{
     color: white;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bolder;
+    margin-top: 5%;
     
 
 }
+
+.left-section-para{
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+.button{
+    margin-top: 5%;
+    padding: 2%;
+    width:28%;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.button:hover{
+    background-color:  rgb(251, 0, 59);
+    cursor: pointer;
+}
+
+
