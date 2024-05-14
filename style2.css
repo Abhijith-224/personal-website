@@ -35,18 +35,19 @@ li{
 
 .nav-custom{
    
-    background-color: rgba(254, 254, 254, 0.2);
+    background-color: rgba(6, 146, 222, 0.341);
    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    
    
 }
 
 .nav-link:hover{
-    color: rgb(246, 7, 62) !important;
+    color: rgb(0, 145, 255) !important;
     transition: 25ms;
 }
 .nav-link{
-   color: #ed72a7 !important;
+   color: #6fadf3 !important;
 }
 
 .landing{
@@ -59,7 +60,7 @@ li{
 .left-section{
     height: 95%;
     width: 50vw;
-    background-color: rgb(246, 7, 62);
+    background-color: rgb(2, 151, 251);
     border-bottom-right-radius: 75px;
     
     
@@ -103,7 +104,7 @@ li{
 .button:hover{
     background-color:  rgb(249, 249, 249);
     cursor: pointer;
-    color:  rgb(246, 7, 62);
+    color:  rgb(0, 145, 255);
     transition: 0.5s;
 }
 
@@ -111,9 +112,11 @@ li{
     display: flex;
     width: 100%;
     justify-content: end;
-
+   
 
 }
+
+
 
 .right-section{
    
@@ -148,12 +151,12 @@ li{
 }
 
 
-l{
+line{
     text-decoration:line-through;
     text-decoration-color: #ededed;
     color: #153448;
 }
-g{
+pageno{
     color:  rgb(246, 7, 62);
 }
 
