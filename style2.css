@@ -175,12 +175,14 @@ pageno{
 .tech-container{
     display: flex;
     justify-content: center;
+    
 } 
 
 .tech-logos{
     
-    width: 50%;
+    
     margin-top: 3%;
+    margin-left: 5%;
     
     
   }  
@@ -247,5 +249,6 @@ pageno{
 .btn{
     width: 30%;
     background-color: #254467 !important;
+    
 }
 
