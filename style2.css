@@ -50,6 +50,14 @@ li{
    color: #6fadf3 !important;
 }
 
+.brand-img{
+
+    width: 40px;
+    /* box-shadow: -5px 5px 10px rgb(17, 58, 88); */
+
+}
+
+/*--------------HOME PAGE STYLES-------------*/
 .landing{
     height: 100vh;
     z-index: -100;
@@ -141,7 +149,8 @@ li{
     width: 50%; 
     height: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    
 }
 
 .page{
@@ -161,13 +170,21 @@ pageno{
 }
 
 
+/*--------------ABOUT PAGE STYLES-------------*/
 
-.about-page{
-    height: 100vh;
-    margin-top: 5%;
-   
+.tech-container{
+    display: flex;
+    justify-content: center;
+} 
+
+.tech-logos{
     
-}
+    width: 50%;
+    margin-top: 3%;
+    
+    
+  }  
+
 
 .page-heading{
     color: #ededed;
@@ -184,4 +201,51 @@ pageno{
     
 }
 
+
+/*--------------CONTACT PAGE STYLES-------------*/
+
+.contact-outer-box{
+  
+    width:100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: end;
+}
+
+.contact-left-section{
+   width:30%;
+   background-color: aqua;
+   margin-right: 20%;
+   margin-bottom: 5%;
+
+}
+
+
+.contact-box{
+    background-color:#253d4e;
+    width: 30%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    padding: 2%;
+    box-shadow: -5px 5px 25px #080549e4;
+    border-radius: 20px;
+  
+}
+
+.control-bg{
+    background: #1c344f !important;
+    border-color: #153448 !important;
+    color: rgb(226, 228, 230) !important;
+}
+
+.submit-button{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    width: 30%;
+    background-color: #254467 !important;
+}
 
