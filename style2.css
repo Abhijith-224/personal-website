@@ -42,8 +42,46 @@ li{
    
 }
 
+.custom-nav-item {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background: yellow !important;
+    color: #00abf0;
+    border-radius: 25px;
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+} 
+
+.custom-nav-item:hover{
+    color: white !important;
+   
+}
+
+.custom-nav-item::before{
+    background: #00abf0 !important;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    /* background: #081b29; */
+    z-index: -1;
+    transition: 0.5s;
+} 
+
+
+
+.custom-nav-item:hover::before{
+    width: 100% !important;
+}
+
 .nav-link:hover{
-    color: rgb(0, 145, 255) !important;
+    /* color: rgb(0, 145, 255) !important; */
     transition: 25ms;
 }
 .nav-link{
@@ -175,17 +213,52 @@ pageno{
 .tech-container{
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
+    
     
 } 
 
+@keyframes in{
+    from {transform: scale(1);}
+    to {transform: scale(1.2);}
+}
+
+@keyframes out{
+    from {transform: scale(1.2);}
+    to {transform: scale(1);}
+}
 .tech-logos{
     
-    
+    width: 68px;
     margin-top: 3%;
     margin-left: 5%;
-    
+    box-shadow: -5px 5px 30px #080549e4;
+    padding: 5px;
+    box-sizing: border-box;
+    transform-origin: center;
+    animation-name: out;
+    animation-duration:0.5s;
     
   }  
+
+  .tech-logos:hover{
+
+    transform-origin: center;
+    box-shadow: -5px 5px 30px #403e5fe4;
+    animation-name: in;
+    animation-duration:1s;
+    
+    
+  }
+
+
+  .tech-container-1{
+    
+    padding: 10%;
+    height: 90vh;
+
+
+  }
 
 
 .page-heading{
