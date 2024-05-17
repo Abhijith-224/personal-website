@@ -189,20 +189,18 @@ li{
     width: 80px;
     justify-content: center;
     align-items: center;
-   
+    
     margin-left: 70%;
     clip-path: circle(41%);
    
 
 }
-.scroll-icon:hover{
-    background-color: rgb(208, 45, 245);
+.scroll-icon:hover .scroll-svg{
+    background-color: rgb(254, 254, 254);
     transition: 0.5s;
     cursor: pointer;
+    color:  rgb(0, 145, 255);
     
-}
-.scroll-svg{
-    color: yellow;
 }
 
 .right-section{
@@ -349,7 +347,7 @@ pageno{
 
 .contact-left-section{
    width:30%;
-   background-color: aqua;
+   
    margin-right: 20%;
    margin-bottom: 5%;
 
