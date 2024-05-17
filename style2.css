@@ -38,12 +38,13 @@ li{
     background-color: rgba(6, 146, 222, 0.341);
    -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    box-shadow: -5px 5px 5px #3d4c55;
     
    
 }
-
+/*=================NAVBAR ANIMATION==============*/
 .custom-nav-item{
-    box-shadow: -5px 5px 15px rgb(124, 189, 233);
+    box-shadow: -5px 5px 10px rgba(8, 27, 41,0.5);
     position: relative;
     display: inline-flex;
     justify-content: center;
@@ -54,7 +55,7 @@ li{
     border-radius: 20px;
     font-size: 19px;
     color: #081b29;
-    text-decoration: none;
+    
     font-weight: 600;
     letter-spacing: 1px;
     z-index: 1;
@@ -185,13 +186,24 @@ li{
 
 .scroll-icon{
     display: flex;
-    width: 100%;
-    justify-content: end;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+   
+    margin-left: 70%;
+    clip-path: circle(41%);
    
 
 }
-
-
+.scroll-icon:hover{
+    background-color: rgb(208, 45, 245);
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.scroll-svg{
+    color: yellow;
+}
 
 .right-section{
    
@@ -275,14 +287,19 @@ pageno{
     width: 68px;
     margin-top: 3%;
     margin-left: 5%;
+    border-radius: 13px;
     box-shadow: -5px 5px 30px #080549e4;
     padding: 5px;
     box-sizing: border-box;
     transform-origin: center;
     animation-name: out;
     animation-duration:0.5s;
+    text-align: center;
+    background: rgb(32,30,68);
+    background: linear-gradient(128deg, rgba(32,30,68,1) 0%, rgba(37,61,78,1) 11%, rgba(16,88,136,1) 67%);
     
-  }  
+
+}  
 
   .tech-logos:hover{
 
@@ -340,7 +357,8 @@ pageno{
 
 
 .contact-box{
-    background-color:#253d4e;
+    background: rgb(11,25,75);
+    background: linear-gradient(128deg, rgba(11,25,75,1) 9%, rgba(37,61,78,1) 48%, rgba(43,58,112,1) 93%);
     width: 30%;
     margin-bottom: 5%;
     margin-right: 5%;
