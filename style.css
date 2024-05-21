@@ -80,7 +80,9 @@ li{
     color: #081b29;
 } 
 .custom-nav-item::before{
-    background: #00abf0;
+    /* background: #00abf0; */
+    background: rgb(24,11,33);
+    background: linear-gradient(90deg, rgba(24,11,33,1) 0%, rgba(46,53,150,1) 51%, rgba(247,0,167,1) 100%);
 }
 
 
@@ -138,9 +140,15 @@ li{
 .left-section{
     height: 95%;
     width: 50vw;
-    background-color: rgb(2, 151, 251);
+    /* background-color: rgb(2, 151, 251); */
+    background: rgb(7,200,249);
+    background: linear-gradient(90deg, rgba(7,200,249,1) 0%, rgba(13,65,225,1) 100%);
+
     border-bottom-right-radius: 75px;
-    box-shadow: 10px 0 5px -2px #111010;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
+    
     z-index:1000 ;
     
     
@@ -241,19 +249,24 @@ li{
     margin-top: 5%;
     width: 50%; 
     height: 5%;
+    justify-content: space-around;
     
 } */
 .right-end{
-    background-color: blueviolet;
-    margin-top: 5%;
+    background: rgb(20,136,204);
+    background: linear-gradient(90deg, rgba(20,136,204,1) 0%, rgba(43,50,178,1) 100%);
+    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 35vh;
+    height: 55vh;
     align-items: center;
     width: 5%;
     border-bottom-right-radius: 45px;
-    
+   
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
+    box-shadow: 10px 10px 11px 0px rgba(0,0,0,0.33);
 
 }
 
