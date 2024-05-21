@@ -1,6 +1,6 @@
 //For Smooth Scrolling
 
-const navLinks = document.querySelectorAll('.mylink');
+const navLinks = document.querySelectorAll('.custom-nav-item');
 const nav = document.querySelector('nav');
 navLinks.forEach(link => {
   link.addEventListener('click', function(event) {
@@ -15,7 +15,7 @@ navLinks.forEach(link => {
         });
       } else {
         window.scrollTo({
-          top: targetSection.offsetTop - (nav.offsetHeight || 50),
+          top: targetSection.offsetTop - (nav.offsetHeight + 20),
           behavior: 'smooth'
         });
       }
