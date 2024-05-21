@@ -32,6 +32,7 @@ li{
 }
 .navbar-brand{
     margin-left:25px;
+   
     
 }
 
@@ -116,7 +117,7 @@ li{
 
 .brand-img{
 
-    width: 40px;
+    width: 60px;
     /* box-shadow: -5px 5px 10px rgb(17, 58, 88); */
     transform-origin: center;
     animation-name: out;
