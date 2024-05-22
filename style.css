@@ -84,8 +84,8 @@ li{
 } 
 .custom-nav-item::before{
     /* background: #00abf0; */
-    background: rgb(24,11,33);
-    background: linear-gradient(90deg, rgba(24,11,33,1) 0%, rgba(46,53,150,1) 51%, rgba(247,0,167,1) 100%);
+    background: rgb(3,122,203);
+    background: linear-gradient(90deg, rgba(3,122,203,1) 0%, rgba(9,9,121,1) 52%, rgba(19,0,90,1) 100%);
 }
 
 
@@ -136,10 +136,10 @@ li{
 .landing{
     height: 100vh;
     z-index: -100;
-    background: url(./images/background.png);
+    /* background: url(./images/background.png);
     background-position: right bottom;
     background-size: 40% 40%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
 }
 
