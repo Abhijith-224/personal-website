@@ -136,10 +136,12 @@ li{
 .landing{
     height: 100vh;
     z-index: -100;
-    /* background: url(./images/background.png);
-    background-position: right bottom;
-    background-size: 40% 40%;
-    background-repeat: no-repeat; */
+    /* background: url(./images/bg.svg);
+    background-position-x: 1010px;
+    background-position-y: bottom;
+    background-size: 40% 60%;
+    background-repeat: no-repeat;
+     */
     
 }
 
@@ -292,7 +294,7 @@ pageno{
     color:  rgb(246, 7, 62);
 }
 
-/*=============PROJRCT PAGE STYLES===========*/
+/*=============PROJECT PAGE STYLES===========*/
 
 .project-content{
     width:50%;
@@ -313,7 +315,12 @@ pageno{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    
+    /* background-image: url(./images/bg.svg);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+ 
     
 } 
 
@@ -327,7 +334,7 @@ pageno{
     to {transform: scale(1);}
 }
 .tech-logos{
-    
+ 
     width: 68px;
     margin-top: 3%;
     margin-left: 5%;
