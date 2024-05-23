@@ -434,8 +434,10 @@ pageno{
 
 
 .contact-box{
-    background: rgb(11,25,75);
-    background: linear-gradient(128deg, rgba(11,25,75,1) 9%, rgba(37,61,78,1) 48%, rgba(43,58,112,1) 93%);
+    /* background: rgb(11,25,75);
+    background: linear-gradient(128deg, rgba(11,25,75,1) 9%, rgba(37,61,78,1) 48%, rgba(43,58,112,1) 93%); */
+    background: url(./images/contact_bg.svg);
+    background-repeat:repeat;
     width: 30%;
     margin-bottom: 5%;
     margin-right: 5%;
