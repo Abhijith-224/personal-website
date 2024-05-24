@@ -310,17 +310,22 @@ pageno{
 }
 
 /*--------------ABOUT PAGE STYLES-------------*/
-
+.tech-container-bg{
+    background-image: url(./images/bg.svg);
+    background-position-x: center;
+    background-position-y: bottom;
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+}
 .tech-container{
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    /* background-image: url(./images/bg.svg);
-    background-position-x: center;
-    background-position-y: bottom;
-    background-size: 100% 100%;
-    background-repeat: no-repeat; */
- 
+    
+   
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
     
 } 
 
