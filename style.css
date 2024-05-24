@@ -334,7 +334,7 @@ pageno{
     to {transform: scale(1);}
 }
 .tech-logos{
- 
+    
     width: 68px;
     margin-top: 3%;
     margin-left: 5%;
@@ -346,9 +346,11 @@ pageno{
     animation-name: out;
     animation-duration:0.5s;
     text-align: center;
-    background: rgb(32,30,68);
-    background: linear-gradient(128deg, rgba(32,30,68,1) 0%, rgba(37,61,78,1) 11%, rgba(16,88,136,1) 67%);
-    
+    /* background: rgb(32,30,68);
+    background: linear-gradient(128deg, rgba(32,30,68,1) 0%, rgba(37,61,78,1) 11%, rgba(16,88,136,1) 67%); */
+    background: url(./images/icon_bg.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 
 }  
 
