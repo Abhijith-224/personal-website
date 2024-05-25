@@ -171,8 +171,11 @@ li{
 }
 
 .heading-1{
-    font-size: 13px;
-    
+    font-size: 16px;
+    /* background: -webkit-linear-gradient(#f7049eee, #f4f4f4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-weight: 200px;
 }
 
 .heading-2{
@@ -390,6 +393,9 @@ pageno{
   
     display: flex;
     justify-content: center;
+    background: -webkit-linear-gradient(#f4f6f7ee, #0063f7ee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
     
     
 }
