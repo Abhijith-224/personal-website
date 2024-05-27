@@ -304,13 +304,18 @@ pageno{
    
     
     height: 100%;
-   
+    
 }   
 
 .about-content-left{
   
     width: 50%;
     height: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    text-align: start;
+    padding: 2%;
+
     
 }
 .about-content-right{
@@ -318,10 +323,13 @@ pageno{
     margin-bottom: 2%;
     width: 50%;
     height: 90%;
-    background: url(download.png);
-    background-size: cover;
-    background-blend-mode:hue;
-    background-position: center;
+    background: url(./about-bg/about.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    
+    background-position:left;
+   
+    
 }
 
 
