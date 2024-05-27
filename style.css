@@ -189,7 +189,7 @@ li{
 
 .left-section-para{
     margin-top: 5%;
-    font-size: 13px;
+    font-size: 10px;
 }
 
 .button{
@@ -297,6 +297,37 @@ pageno{
     color:  rgb(246, 7, 62);
 }
 
+/*=============ABOUT PAGE STYLES===========*/
+
+.about-content{
+    display: flex;
+   
+    
+    height: 100%;
+   
+}   
+
+.about-content-left{
+  
+    width: 50%;
+    height: 90%;
+    
+}
+.about-content-right{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 90%;
+    background: url(download.png);
+    background-size: cover;
+    background-blend-mode:hue;
+    background-position: center;
+}
+
+
+
+
+
 /*=============PROJECT PAGE STYLES===========*/
 
 .project-content{
@@ -312,7 +343,7 @@ pageno{
     margin-left: 28%;
 }
 
-/*--------------ABOUT PAGE STYLES-------------*/
+/*--------------SKILLS PAGE STYLES-------------*/
 .tech-container-bg{
     background-image: url(./images/bg.svg);
     background-position-x: center;
