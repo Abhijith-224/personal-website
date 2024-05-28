@@ -61,3 +61,17 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+
+// For Navbar fading
+
+$(document).ready(function(){
+  $('.navbar-nav a').on('click', function(){
+
+    if($('.navbar-collapse').hasClass('show'))
+    { 
+      $('.navbar-collapse').removeClass('show');
+      $('#MyCheckbox').prop('checked', false);
+    }
+  });
+});
