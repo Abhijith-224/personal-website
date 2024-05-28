@@ -323,12 +323,16 @@ pageno{
     margin-bottom: 2%;
     width: 50%;
     height: 90%;
-    background: url(./about-bg/about.png);
+    /* background: url(./about-bg/about.png);
     background-size:100%;
     background-repeat: no-repeat;
     
     background-position:left;
-   
+    */
+    
+}
+.img{
+    width:80%;
     
 }
 
