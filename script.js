@@ -22,6 +22,17 @@ navLinks.forEach(link => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+  // Get the height of the navbar element
+  var navbarHeight = document.querySelector('.navbar').offsetHeight;
+
+  // Check if screen size is below 426px
+  if (window.innerWidth < 768) {
+    // Set padding-top of the landing element based on navbar height
+    var landingElement = document.querySelector('.landing');
+    landingElement.style.paddingTop = navbarHeight + 'px';
+  }
+});
 
 
 AOS.init();

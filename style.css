@@ -199,6 +199,7 @@ li{
     border-radius: 25px;
     border: 1px solid white;
     text-align: center;
+    
 }
 
 .button:hover{
@@ -211,6 +212,7 @@ li{
 .biodata{
     text-decoration: none;
     color: white;
+    
     
 }
 
@@ -538,3 +540,92 @@ pageno{
     justify-content: center;
 }
 
+
+/* =================MEDIA QUERY : MOBILE LARGE 768PX================= */
+
+@media screen and  (max-width:768px){
+    
+    
+    .custom-nav-item{
+        margin-top: 15px;
+    }
+    .heading-1{
+        font-size: 8px;
+
+    }
+    .heading-2{
+        font-size: 1rem;
+    }
+    .brand-img{
+        width: 50px;
+    }
+    .profile{
+        width: 48vw;
+    }
+    .right-end{
+        display: none;
+    }
+    .button{
+        width: 35vw;
+        font-size: 0.7em;
+    }
+    .left-section{
+        height: 55vh;
+    }
+    .left-section-content{
+        margin-left: 5vw;
+    }
+    .scroll-icon{
+        width:3em;
+    }
+    
+    /* ========ABOUT=========== */
+    .about-content{
+        flex-direction: column-reverse;
+    }
+    .about-content-left{
+        width: 100%;
+        text-align: justify;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        margin-top: 0px;
+    }
+    .about-content-right{
+        width: 100%;
+        padding: 0%;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+
+/* ===========SKILLS======= */
+
+    .tech-container-1{
+        height: 50vh;
+    }
+    .tech-container-bg{
+        background: none;
+    }
+
+    
+    
+/* ===========CONTACT======= */
+.contact-outer-box{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.contact-box{
+    width: 80vw;
+    margin: 0px;
+    margin-top: 10vh;
+}
+    .contact-left-section
+    {
+        display: none;
+    }
+
+
+}
