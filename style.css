@@ -427,7 +427,7 @@ pageno {
     text-align: center;
     /* background: rgb(32,30,68);
     background: linear-gradient(128deg, rgba(32,30,68,1) 0%, rgba(37,61,78,1) 11%, rgba(16,88,136,1) 67%); */
-    background: url(./images/icon_bg.svg);
+    background: url(./icons/iconbg1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 
@@ -605,7 +605,7 @@ pageno {
     }
 
     .button {
-        width: 35vw;
+        width: 48vw;
         font-size: 0.7em;
     }
 
