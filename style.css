@@ -22,6 +22,8 @@
     z-index: 1; /* Ensures content appears above the video */
   }
   
+
+  
 *,
 *::before,
 *::after {
@@ -265,6 +267,9 @@ li {
     cursor: pointer;
     color: rgb(0, 145, 255);
 
+}
+.down-arrow{
+    display: none;
 }
 
 .right-section {
@@ -606,6 +611,7 @@ pageno {
     }
     .left-section-para{
         text-align: justify;
+        font-size: 10px;
     }
 
     .heading-1 {
@@ -614,7 +620,7 @@ pageno {
     }
 
     .heading-2 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .brand-img {
