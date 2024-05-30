@@ -220,7 +220,7 @@ li {
 
 .left-section-para {
     margin-top: 5%;
-    font-size: 10px;
+    font-size: 13px;
 }
 
 .button {
@@ -454,7 +454,8 @@ pageno {
     background: url(./icons/iconbg1.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-
+    
+    
 }
 
 .tech-logos:hover {
