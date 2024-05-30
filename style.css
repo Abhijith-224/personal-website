@@ -10,7 +10,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif !important;
 }
-
+.right-end-1{
+    display: none;
+}
 .head {
     background-color: red;
 }
@@ -294,6 +296,7 @@ li {
 
 }
 
+
 .page {
     height: 100vh;
     margin-top: 5%;
@@ -347,8 +350,9 @@ pageno {
 
 }
 
-.img {
+.about-img {
     width: 90%;
+    filter: drop-shadow(0 0 10px rgb(98, 147, 207));
 
 }
 
@@ -464,7 +468,7 @@ pageno {
 
     display: flex;
     justify-content: center;
-    background: -webkit-linear-gradient(#f4f6f7ee, #0063f7ee);
+    background: linear-gradient(90deg, #f4f6f7ee, #0063f7ee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -605,7 +609,7 @@ pageno {
     }
 
     .button {
-        width: 48vw;
+        width: 38vw;
         font-size: 0.7em;
     }
 
@@ -619,6 +623,18 @@ pageno {
 
     .scroll-icon {
         width: 3em;
+    }
+
+    .right-end-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 40vw;
+        align-self: center;
+        
+        background-color: red;
+        
+        
     }
 
     /* ========ABOUT=========== */
@@ -667,6 +683,7 @@ pageno {
         width: 80vw;
         margin: 0px;
         margin-top: 10vh;
+        
     }
 
     .contact-left-section {
