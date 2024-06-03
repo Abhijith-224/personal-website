@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Abhijith Portfolio</title>
+  
   <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script> -->
   <link rel="stylesheet" href="style.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -180,9 +181,9 @@
   <!------------------------Home Page------------------------------->
 
 
-  <div class="landing d-flex" id="Home" data-aos="flip-left" data-aos-delay="10" data-aos-duration="2000"
+  <div class="landing d-flex" id="Home">
+    <div class="left-section"  data-aos="flip-left" data-aos-delay="10" data-aos-duration="2000"
     data-aos-easing="ease-in-out">
-    <div class="left-section">
       <div class="left-section-content d-flex flex-column">
         <div class="heading-1">Welcome to my profile</div>
         <div class="heading-2">
@@ -193,7 +194,7 @@
           <p>Welcome to my personal corner of the web! Here, you'll find a curated collection of my thoughts, creations,
             and experiences. From insightful reflections to creative endeavors, this space is a reflection of my journey
             through life. So, take a moment to explore,
-            and I hope you find something that resonates with you. Welcome, and thank you for visiting!</p>
+            and I hope you find something that resonates with you. </p>
         </div>
         <a class="biodata" target="_blank" href="./resume/resume.html">
           <div class="button">
@@ -255,11 +256,13 @@
     </div>
 
 
-    <div class="right-section">
+    <div class="right-section"  data-aos="fade-down" data-aos-delay="10" data-aos-duration="2000"
+    data-aos-easing="ease-in-out">
       <div class="">
         <div class="profile">
           <img src="./logo/profile.jpg" alt="">
         </div>
+        <!------------------------RESPONSIVE SOCIAL ICONS------------------------------------------------>
         <div class="right-end-1">
           <!-- <div class="right-section-icons"> -->
           <a href="https://www.facebook.com/abhijiths224" target="_blank" class="link-light"><svg
@@ -281,9 +284,12 @@
             </svg></a>
           <!-- </div> -->
         </div>
+        
+        
       </div>
     </div>
-    <div class="right-end">
+    <div class="right-end"  data-aos="flip-right" data-aos-delay="10" data-aos-duration="2000"
+    data-aos-easing="ease-in-out">
       <!-- <div class="right-section-icons"> -->
       <a href="https://www.facebook.com/abhijiths224" target="_blank" class="link-light mt-5"><svg
           xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-facebook"
@@ -304,11 +310,16 @@
         </svg></a>
       <!-- </div> -->
     </div>
-    <!------------------------RESPONSIVE SOCIAL ICONS------------------------------------------------>
-
-
+    
+    
+    
 
   </div>
+  <div class="down-arrow">
+    <a class="custom-nav-item" style="border: none;" href="#About"><dotlottie-player src="https://lottie.host/83d3ea00-6a56-4b9f-972c-51769b595f7b/04NOfU2yv6.json" background="transparent" speed="0.5" style="width: 150px; height: 150px;" loop autoplay></dotlottie-player></a>
+  
+  </div>
+
 
   <!-----------------------------ABOUT PAGE-------------------------------------->
 
@@ -324,14 +335,11 @@
     </div>
 
     <div class="about-content">
-      <div class="about-content-left">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eveniet suscipit! Dicta exercitationem
-        error nihil ipsum, cupiditate, perspiciatis sequi cumque minima dolorem, autem ipsam sint et fugit eveniet
-        labore iure.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, laborum cumque aut fugiat doloremque perferendis
-        eveniet, facilis ad labore unde eos temporibus quia est mollitia cum error expedita iusto cupiditate.
+      <div class="about-content-left" data-aos="fade-down" data-aos-duration="1000">
+        <p>Hey there, I’m Abhijith S, a web developer with a passion for crafting seamless online experiences. With a knack for coding and an eye for design, I specialize in bringing ideas to life in the digital landscape. Whether it's designing intuitive user interfaces or optimizing website performance, I thrive on the creative challenge of building impactful solutions. Beyond the pixels and lines of code, I’m constantly exploring new technologies and methodologies to stay ahead of the curve. Through this platform, I’m excited to share my journey, insights, and projects with you. Join me as we navigate the ever-changing terrain of web development, one line of code at a time.</p>
+        <p>Thank you for visiting, and I look forward to embarking on this journey with you!</p>
       </div>
-      <div class="about-content-right">
+      <div class="about-content-right" data-aos="fade-up" data-aos-duration="1000">
         <img class="about-img" src="./about-bg/aboutbg1.png" alt="">
       </div>
     </div>
@@ -341,7 +349,7 @@
   <!------------------------PROJECT PAGE----------------------------------->
   <div class="video-container" id="Project">
     <video autoplay muted loop id="video-background">
-      <source src="bg.mp4" type="video/mp4">
+      <source src="./mp4/bg.mp4" type="video/mp4">
       Your browser does not support HTML5 video.
     </video>
     <div class=" content project-page page"  data-aos="fade-up" data-aos-duration="1500">
@@ -392,7 +400,7 @@
 
     <!-- <div class="tech-container-bg"> -->
     <div class="tech-container">
-      <div class="tech-container-1 d-flex flex-column justify-content-between">
+      <div class="tech-container-1 d-flex flex-column justify-content-between" data-aos="fade-right" data-aos-duration="1000">
 
         <!-------------CSS---------------->
         <div class="tech-logos">
@@ -435,7 +443,7 @@
 
       </div>
 
-      <div class="tech-container-1 d-flex flex-column justify-content-between">
+      <div class="tech-container-1 d-flex flex-column justify-content-between" data-aos="zoom-in-down" data-aos-duration="1000">
 
         <!-------------PYTHON---------------->
         <div class="tech-logos">
@@ -498,7 +506,7 @@
       </div>
 
 
-      <div class="tech-container-1 d-flex flex-column justify-content-between">
+      <div class="tech-container-1 d-flex flex-column justify-content-between" data-aos="fade-left" data-aos-duration="1000">
 
         <!-------------BOOTSTRAP---------------->
         <div class="tech-logos">
@@ -617,6 +625,7 @@
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
   <script src="script.js"></script>
 </body>
 
