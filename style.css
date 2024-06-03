@@ -208,7 +208,7 @@ li {
 .button {
     margin-top: 5%;
     padding: 2%;
-    width: 35%;
+  
   
     border-radius: 25px;
     border: 1px solid white;
@@ -226,8 +226,14 @@ li {
 .biodata {
     text-decoration: none;
     color: white;
+    width: 35%;
+   
 
 
+}
+.scroll-link{
+    text-decoration: none;
+    color: white;
 }
 
 .scroll-icon {
