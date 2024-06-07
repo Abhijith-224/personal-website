@@ -63,19 +63,21 @@ AOS.init({
 });
 
 
-// For Navbar fading
+          // For Navbar fading
 
-$(document).ready(function(){
-  $('.navbar-nav a').on('click', function(){
+ // Get all the navigation links
+ const navLink = document.querySelectorAll('.navbar-nav .nav-link');
 
-    if($('.navbar-collapse').hasClass('show'))
-    { 
-      $('.navbar-collapse').removeClass('show');
-      $('#MyCheckbox').prop('checked', false);
-    }
-  });
-});
-
+ // Add click event listener to each navigation link
+ navLink.forEach(link => {
+     link.addEventListener('click', () => {
+         // Collapse the navbar when a link is clicked
+         const navbarCollapse = document.querySelector('.navbar-collapse');
+         if (navbarCollapse.classList.contains('show')) {
+             navbarCollapse.classList.remove('show');
+         }
+     });
+ });
 
 
 
