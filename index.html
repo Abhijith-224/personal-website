@@ -579,25 +579,25 @@
       </div>
 
       <div class="contact-box">
-        <form action="" method="post">
+        <form id="contactfrm">
           <div class="mb-3">
-            <label for="name" class="form-label">Name:</label>
-            <input type="text" class="form-control control-bg" id="name" name="name" required>
+            <label for="name" class="form-label" id="name">Name:</label>
+            <input type="text" class="form-control control-bg" id="name" name="name">
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control control-bg" id="email" name="email" required>
+            <label for="email" class="form-label" id="email">Email:</label>
+            <input type="email" class="form-control control-bg" id="email" name="email">
           </div>
           <div class="mb-3">
-            <label for="subject" class="form-label">Subject:</label>
-            <input type="text" class="form-control control-bg" id="subject" name="subject" required>
+            <label for="subject" class="form-label" id="subject">Subject:</label>
+            <input type="text" class="form-control control-bg" id="subject" name="subject">
           </div>
           <div class="mb-3">
-            <label for="message" class="form-label">Message:</label>
-            <textarea class="form-control control-bg" id="message" name="message" rows="4" required></textarea>
+            <label for="message" class="form-label" id="message">Message:</label>
+            <textarea class="form-control control-bg" id="message" name="message" rows="4"></textarea>
           </div>
           <div class="submit-button">
-            <button type="submit" class="btn ">Submit</button>
+            <button type="button" onclick="sendEmail()" class="btn">Submit</button>
           </div>
 
         </form>
@@ -618,15 +618,14 @@
     </div>
   </div>
 
-  <!-- <script>
-    var scroll = new SmoothScroll('a[href*="#"]');
-  </script> -->
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 
 </html>
