@@ -79,15 +79,11 @@ $(document).ready(function () {
 //For Contact Email
 
 const form = document.querySelector('#contactfrm');
-const fullName = document.getElementById("name");
-const email = document.getElementById("email");
-const subject = document.getElementById("subject");
-const message = document.getElementById("message");
 
 function sendEmail() {
 
-  const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}
-  <br> Subject: ${subject.value}<br> Message: ${message.value}`;
+  // const bodyMessage = `Full Name: ${fullName.value}<br> Email: ${email.value}
+  // <br> Subject: ${subject.value}<br> Message: ${message.value}`;
 
   Email.send({
     Host: "smtp.elasticemail.com",
@@ -98,27 +94,11 @@ function sendEmail() {
     Subject: "hgfhtfghd",
     Body: bodyMessage
   }).then(
-   
-    message => {
-      if(message == "OK"){
-        Swal.fire({
-          title: "Success!",
-          text: "Message Send Successfully!",
-          icon: "success"
-        });
-      }
-    }
+    message => alert(message)
+    
+    
   );
 }
-
-// form.addEventListener("submit", (e) => {
-//   alert("ok")
-//   e.preventDefault();
-
-//   sendEmail();
-
-// });
-
 
 
 
